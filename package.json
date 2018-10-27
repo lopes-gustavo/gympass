@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app/index",
     "build": "tsc",
-    "test": "mocha --require ts-node/register src/**/*.spec.ts"
+    "test": "nyc mocha --opts ./mocha.opts"
   },
   "author": "Gustavo Lopes",
   "devDependencies": {
@@ -14,8 +14,10 @@
     "@types/node": "^10.12.0",
     "chai": "latest",
     "codelyzer": "^4.5.0",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.5",
+    "nyc": "^13.1.0",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "typescript": "^3.1.3"
