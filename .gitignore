@@ -1,0 +1,6 @@
+.idea/
+.nyc_output/
+app/
+coverage/
+node_modules/
+
