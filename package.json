@@ -2,8 +2,8 @@
   "name": "gympass",
   "version": "1.0.0",
   "description": "Gympass interview test",
-	"main": "src/index.ts",
-	"scripts": {
+  "main": "src/index.ts",
+  "scripts": {
     "start": "node --require ts-node/register src/index.ts",
     "build": "tsc",
     "test": "nyc mocha --opts ./mocha.opts"

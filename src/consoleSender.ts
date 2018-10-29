@@ -1,4 +1,4 @@
-import { MomentFormatter } from './momentFormatter';
+import { MomentFormatter } from './utils/momentFormatter';
 import { ResultadoDaProva } from './definitions/resultadoDaProva';
 
 /**
