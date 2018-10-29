@@ -1,7 +1,7 @@
 import path from 'path';
 
 import { KartRunDataProcessor } from './kartRunDataProcessor';
-import { ConsoleSender } from './consoleSender';
+import { ConsoleSender } from './view/consoleSender';
 import { FileParser } from './fileParser';
 
 if (!process.version.includes('v11')) {

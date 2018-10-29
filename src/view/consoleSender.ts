@@ -1,5 +1,5 @@
-import { MomentFormatter } from './utils/momentFormatter';
-import { ResultadoDaProva } from './definitions/resultadoDaProva';
+import { MomentFormatter } from '../utils/momentFormatter';
+import { ResultadoDaProva } from '../definitions/resultadoDaProva';
 
 /**
  * @class
