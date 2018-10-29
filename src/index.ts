@@ -1,6 +1,6 @@
 import path from 'path';
 
-import { KartRunDataProcessor } from './kartRunDataProcessor';
+import { KartRunDataProcessor } from './services/kartRunDataProcessor';
 import { ConsoleSender } from './view/consoleSender';
 import { FileParser } from './fileParser';
 

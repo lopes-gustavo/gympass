@@ -1,7 +1,7 @@
 import { Duration, duration } from 'moment';
 
-import { DadosDeUmaVolta, Voltas } from './definitions/dadosDeUmaVolta';
-import { ResultadoDaProva } from './definitions/resultadoDaProva';
+import { DadosDeUmaVolta, Voltas } from '../definitions/dadosDeUmaVolta';
+import { ResultadoDaProva } from '../definitions/resultadoDaProva';
 
 export class KartRunDataProcessor {
 

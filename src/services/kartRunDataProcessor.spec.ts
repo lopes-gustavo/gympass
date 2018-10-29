@@ -1,7 +1,7 @@
 import { Duration, duration } from 'moment';
 import { expect } from 'chai';
 import { KartRunDataProcessor } from './kartRunDataProcessor';
-import { Voltas } from './definitions/dadosDeUmaVolta';
+import { Voltas } from '../definitions/dadosDeUmaVolta';
 
 describe('KartRunDataProcessor', () => {
 	it('should process run data with only 1 runner and 1 lap', () => {
