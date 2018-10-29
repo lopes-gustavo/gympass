@@ -1,0 +1,26 @@
+﻿Os detalhes técnicos de execução estão no arquivo README.md, na raiz do projeto.
+
+Algumas premissas foram tomadas na execução desse teste. Seguem abaixo:
+
+1) A corrida segue um padrão de fórmula 1, onde os carros não saem da mesma posição.
+ Ou seja, existem um tempo até os carros alcançarem a linha de início, sendo somente a partir de então que o tempo da
+ volta será contado.
+
+ O primeiro piloto na "pole position" já está na iminência de cruzamento da linha de início, enquanto os outros estão
+ atrás.
+
+ As posições de saída são dadas abaixo, com os respectivos tempos levados até o cruzamento da linha de início:
+
+ Código |     Piloto     | Momento em que cruzou  | Tempo gasto para cruzar
+        |                |   a linha de início    |     a linha de início
+--------+----------------+------------------------+-----------------------------
+038     | F.MASSA        | 23:48:05.425           | 0
+033     | R.BARRICHELLO  | 23:48:06.506           | 01s 081ms
+002     | K.RAIKKONEN    | 23:48:06.967           | 01s 542ms
+023     | M.WEBBER       | 23:48:08.253           | 02s 827ms
+015     | F.ALONSO       | 23:48:12.520           | 07s 095ms
+011     | S.VETTEL       | 23:48:30.481           | 25s 055ms
+
+2) A quantidade de voltas completadas será contada no momento em que o vencedor cruza a linha de chegada.
+
+3) Tempo após o vencedor é computado somente quando o piloto completa 4 voltas
