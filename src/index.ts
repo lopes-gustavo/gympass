@@ -2,7 +2,7 @@ import path from 'path';
 
 import { KartRunDataProcessor } from './services/kartRunDataProcessor';
 import { ConsoleSender } from './view/consoleSender';
-import { FileParser } from './fileParser';
+import { FileParser } from './dataAccessLayer/fileParser';
 
 if (!process.version.includes('v11')) {
 	console.error('\x1b[31m');

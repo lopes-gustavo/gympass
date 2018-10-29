@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { duration } from 'moment';
 
-import { DadosDeUmaVolta, Voltas } from './definitions/dadosDeUmaVolta';
+import { DadosDeUmaVolta, Voltas } from '../definitions/dadosDeUmaVolta';
 
 /**
  * @class
