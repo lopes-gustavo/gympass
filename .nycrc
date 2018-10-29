@@ -1,7 +1,10 @@
 {
 	"extension": [".ts"],
 	"include": ["src"],
-	"exclude": ["**/*.d.ts"],
+	"exclude": [
+		"**/*.d.ts",
+		"src/index.ts"
+	],
 	"reporter": ["html"],
 	"all": true
 }
